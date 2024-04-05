@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+--Paleblue: hsl(225, 100%, 94%);
+--Brightblue: hsl(245, 75%, 52%);
+--Verypaleblue: hsl(225, 100%, 98%);
+--Desaturatedblue: hsl(224, 23%, 55%);
+--Darkblue: hsl(223, 47%, 23%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(../images/pattern-background-desktop.svg) no-repeat center/cover;
+  background-color: var(--Paleblue);
+  font-family: serif;
+}
+
+.main_container{
+  background-color: var(--Verypaleblue);
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 5rem;
+  box-shadow: 3px 5px 5px hsl(223, 47%, 23% ) ;
+  margin-bottom: 4rem;
+}
+
+.main_container .hero{
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.info{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.info h2{
+  color: var(--Darkblue);
+  font-family: sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+.info p{
+  color: var(--Desaturatedblue);
+  font-family: sans-serif;
+  font-size: 1rem;
+  width: 300px;
+  line-height: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.plan{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  gap: 4rem;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.suscription{
+  font-family: sans-serif;
+  margin-left: 1rem;
+  color: var(--Desaturatedblue);
+}
+
+.bold{
+  color: var(--Darkblue);
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.change{
+  font-family: sans-serif;
+  color: var(--Brightblue);
+  font-weight: 600;
+  border-bottom: 1px solid var(--Brightblue);
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+button{
+  background-color: var(--Brightblue);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  width: 350px;
+}
+
+.order{
+  font-family: sans-serif;
+  color: var(--Desaturatedblue);
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.attribution{
+  color: var(--Darkblue);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.attribution a{
+  text-decoration: none;
+  color: var(--Darkblue);
+}
